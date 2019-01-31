@@ -1,1 +1,55 @@
-//
+.pots {
+  background-color: @color-white;
+  display: flex;
+  align-items: flex-start;
+}
+
+.pots__col {
+
+  &--left {
+    width: 372px;
+    box-sizing: border-box;
+    padding-top: 235px;
+    padding-left: 121px;
+    border: 1px solid transparent;
+    background-image: url("../../img/pots-part-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 119px;
+      left: 121px;
+      width: 128px;
+      height: 79px;
+      background-image: url("../../img/img-pots.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+  }
+
+  &--right {
+
+  }
+}
+
+.pots__name {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 300;
+  color: @color-dark-green-alt;
+}
+
+.pots__text {
+  display: block;
+  margin-bottom: 98px;
+  margin-left: 23px;
+  font-size: 14px;
+  font-weight: 500;
+  color: @color-light-green;
+}

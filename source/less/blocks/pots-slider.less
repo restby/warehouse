@@ -1,1 +1,106 @@
-//
+.pots-slider {
+
+}
+.pots-slider__list {
+  .listreset();
+}
+
+.pots-slider__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.pots-slider__col {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  &--1 {
+    width: 755px;
+    padding-top: 52px;
+    padding-left: 50px;
+  }
+
+  &--2 {
+    width: 373px;
+  }
+}
+
+.pots-slider__title {
+  .reset-ma-pa();
+  margin-bottom: 10px;
+  margin-left: 3px;
+  width: 274px;
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 29px;
+  line-height: 35px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.pots-slider__cost {
+  margin-bottom: 38px;
+  margin-left: 1px;
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.pots-slider__cost span {
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.pots-slider__cat-btn {
+  padding-left: 22px;
+  border: none;
+  background-color: transparent;
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  color: @color-grey-alter;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 17px;
+    background-image: url("../../img/icon-heart.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+.pots-slider__img {
+  position: absolute;
+  bottom: 0;
+  left: 274px;
+
+  &--1 {
+
+  }
+}
+
+.pots-slider__avatar {
+
+}
+
+.pots-slider__author {
+
+}
+
+.pots-slider__slogan {
+  .reset-ma-pa();
+}
