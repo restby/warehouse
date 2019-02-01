@@ -10,6 +10,10 @@
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
+
+  &--item1 {
+    // margin-bottom: 178px;
+  }
 }
 
 .pots-slider__col {
@@ -26,6 +30,8 @@
 
   &--2 {
     width: 373px;
+    padding-left: 57px;
+    padding-top: 72px;
   }
 }
 
@@ -81,26 +87,70 @@
     background-repeat: no-repeat;
     background-position: 0 0;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .pots-slider__img {
   position: absolute;
   bottom: 0;
-  left: 274px;
+  left: 0;
 
-  &--1 {
-
+  &--item1 {
+    left: 274px;
+    margin-bottom: -49px;
   }
 }
 
 .pots-slider__avatar {
-
+  margin-left: 39px;
+  margin-bottom: 11px;
 }
 
 .pots-slider__author {
+  line-height: 26px;
+  font-weight: 700;
+  color: @color-light-grey-alter;
+  margin-bottom: 32px;
+  position: relative;
+  text-transform: uppercase;
 
+  &::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    bottom: 0;
+    margin-bottom: -24px;
+    left: 82px;
+    background-color: @color-light-grey;
+  }
 }
 
 .pots-slider__slogan {
   .reset-ma-pa();
+  padding-right: 120px;
+  font-size: 58px;
+  line-height: 65px;
+  font-weight: 100;
+  color: @color-black-alt;
+}
+
+.pots-slider__btn {
+  position: absolute;
+  width: 9px;
+  height: 14px;
+  top: 182px;
+  left: 1070px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../../img/right.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  &:hover {
+    cursor: pointer;
+  }
 }

@@ -1,1 +1,164 @@
-//
+.shakers {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: @color-white;
+}
+
+.shakers__col {
+  position: relative;
+
+  &--1 {
+    display: flex;
+    align-items: flex-start;
+    width: 1127px;
+    padding-top: 48px;
+    padding-left: 51px;
+    box-sizing: border-box;
+    background-color: @color-white;
+  }
+
+  &--2 {
+    width: 373px;
+    padding-top: 268px;
+    padding-left: 143px;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    background-image: url("../../img/shakers-part-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 119px;
+      left: 162px;
+      width: 48px;
+      height: 110px;
+      background-image: url("../../img/img-shakers.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+  }
+}
+
+.shakers-container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  &--1 {
+    width: 833px;
+  }
+
+  &--2 {
+    width: 294px;
+    padding-top: 21px;
+  }
+}
+
+.shakers__title {
+  .reset-ma-pa();
+  margin-bottom: 16px;
+  margin-left: 1px;
+  width: 274px;
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.shakers__cost {
+  margin-bottom: 37px;
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.shakers__cost span {
+  font-family: "Ginora_sans", "Arial", sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 300;
+  color: @color-grey-alter;
+}
+
+.shakers__btn {
+  padding-left: 22px;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+  color: @color-grey-alter;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 17px;
+    background-image: url("../../img/icon-red-heart.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.shakers__img {
+  position: absolute;
+  bottom: 0;
+  left: 389px;
+  margin-bottom: -72px;
+}
+
+.shakers__avatar {
+  margin-left: 31px;
+  margin-bottom: 11px;
+}
+
+.shakers__author {
+  line-height: 16px;
+  font-weight: 700;
+  color: @color-light-grey-alter;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.shakers__slogan {
+  .reset-ma-pa();
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 100;
+  color: @color-black-alt;
+}
+
+.shakers__name {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 300;
+  color: @color-grey-alt;
+  text-transform: uppercase;
+}
+
+.shakers__text {
+  display: block;
+  margin-left: 4px;
+  margin-bottom: 61px;
+  font-size: 14px;
+  font-weight: 500;
+  color: @color-green-alter;
+  text-transform: uppercase;
+}

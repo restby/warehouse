@@ -1,1 +1,38 @@
-//
+.room {
+  margin-top: -1px;
+  background-image: url("../../img/rooms-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 1px solid @color-grey-alt;
+}
+
+.room__block {
+  width: 162px;
+  height: 162px;
+  margin-left: 490px;
+  margin-top: 79px;
+  margin-bottom: 88px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: @color-white;
+  padding-top: 98px;
+  padding-left: 53px;
+  line-height: 18px;
+  font-weight: 300;
+  color: @color-grey-alt;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 53px;
+    left: 65px;
+    width: 32px;
+    height: 26px;
+    background-image: url("../../img/img-diamond.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
