@@ -1,9 +1,69 @@
 .promo {
   width: 1118px;
+  display: flex;
+  align-items: flex-start;
+
   box-sizing: border-box;
-  background-color: @color-light-grey-alt;
+  background-color: @color-white-alt;
+}
+
+.promo__col {
+  &--left {
+    width: 557px;
+    margin-bottom: 374px;
+    position: relative;
+  }
+
+  &--right {
+    width: 561px;
+  }
+}
+
+.promo__logo-img {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 144px;
+}
+
+.promo__cost {
+  width: 237px;
+  .reset-ma-pa();
+  margin-left: 51px;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 100;
+  color: @color-grey-alt;
+}
+
+.promo__img {
+  position: absolute;
+  top: 169px; /*174px*/
+  left: 142px;
+}
+
+.promo__avatar {
+  display: block;
+  margin-top: 147px;
+  margin-left: 217px;
+  margin-bottom: 17px;
+}
+
+.promo__title {
+  display: block;
+  margin-left: 171px;
+  margin-bottom: 51px;
+  line-height: 17px;
+  font-weight: 900;
+  color: @color-light-grey;
+  text-transform: uppercase;
 }
 
 .promo__text {
   .reset-ma-pa();
+  margin-left: -82px;
+  font-size: 56px;
+  line-height: 59px;
+  font-weight: 100;
+  color: @color-black-alt;
+  text-align: center;
 }
