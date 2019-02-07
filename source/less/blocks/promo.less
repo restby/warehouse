@@ -2,15 +2,29 @@
   width: 1118px;
   display: flex;
   align-items: flex-start;
-
   box-sizing: border-box;
   background-color: @color-white-alt;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 185px;
+    width: 343px;
+    height: 283px;
+    background-image: url("../../img/promo-part-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.7;
+  }
 }
 
 .promo__col {
   &--left {
     width: 557px;
-    margin-bottom: 374px;
+    margin-bottom: 380px;
     position: relative;
   }
 
@@ -22,13 +36,46 @@
 .promo__logo-img {
   margin-left: 20px;
   margin-top: 20px;
-  margin-bottom: 144px;
+  margin-bottom: 138px;
+}
+
+.promo__slider {
+  position: absolute;
+  z-index: 2;
+  top: 86px;
+  left: 348px;
+}
+
+.promo__slider-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 7px;
+  height: 14px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--prev {
+    background-image: url("../../img/icon-right.png");
+    margin-left: -23px;
+  }
+
+  &--next {
+    background-image: url("../../img/icon-left.png");
+    margin-left: 41px;
+  }
 }
 
 .promo__cost {
   width: 237px;
   .reset-ma-pa();
-  margin-left: 51px;
+  margin-left: 50px;
   font-size: 28px;
   line-height: 38px;
   font-weight: 100;
@@ -37,7 +84,7 @@
 
 .promo__img {
   position: absolute;
-  top: 169px; /*174px*/
+  top: 169px;
   left: 142px;
 }
 
@@ -51,7 +98,7 @@
 .promo__title {
   display: block;
   margin-left: 171px;
-  margin-bottom: 51px;
+  margin-bottom: 40px;
   line-height: 17px;
   font-weight: 900;
   color: @color-light-grey;

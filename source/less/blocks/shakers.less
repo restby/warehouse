@@ -12,7 +12,7 @@
     display: flex;
     align-items: flex-start;
     width: 1127px;
-    padding-top: 48px;
+    padding-top: 46px;
     padding-left: 51px;
     box-sizing: border-box;
     background-color: @color-white;
@@ -20,13 +20,13 @@
 
   &--2 {
     width: 373px;
-    padding-top: 268px;
+    padding-top: 266px;
     padding-left: 143px;
     box-sizing: border-box;
     border-bottom: 1px solid transparent;
     background-image: url("../../img/shakers-part-bg.png");
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 -8px;
     position: relative;
 
     &::before {
@@ -50,19 +50,17 @@
   flex-direction: column;
 
   &--1 {
-    width: 833px;
+    width: 777px;
   }
 
   &--2 {
     width: 294px;
-    padding-top: 21px;
+    padding-top: 24px;
   }
 }
 
 .shakers__title {
   .reset-ma-pa();
-  margin-bottom: 16px;
-  margin-left: 1px;
   width: 274px;
   font-family: "Ginora_sans", "Arial", sans-serif;
   font-size: 26px;
@@ -72,7 +70,7 @@
 }
 
 .shakers__cost {
-  margin-bottom: 37px;
+  margin-bottom: 29px;
   font-family: "Ginora_sans", "Arial", sans-serif;
   font-size: 34px;
   line-height: 40px;
@@ -89,7 +87,7 @@
 }
 
 .shakers__btn {
-  padding-left: 22px;
+  padding-left: 28px;
   border: none;
   background-color: transparent;
   font-size: 17px;
@@ -101,8 +99,8 @@
   &::before {
     position: absolute;
     content: "";
-    top: 0;
-    left: 0;
+    top: 3px;
+    left: 2px;
     width: 16px;
     height: 17px;
     background-image: url("../../img/icon-red-heart.png");
@@ -119,19 +117,20 @@
   position: absolute;
   bottom: 0;
   left: 389px;
-  margin-bottom: -72px;
+  margin-bottom: -66px;
 }
 
 .shakers__avatar {
-  margin-left: 31px;
-  margin-bottom: 11px;
+  margin-left: 36px;
+  margin-bottom: 15px;
 }
 
 .shakers__author {
+  margin-left: 5px;
   line-height: 16px;
   font-weight: 700;
   color: @color-light-grey-alter;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
   text-transform: uppercase;
 }
 
@@ -145,7 +144,7 @@
 
 .shakers__name {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 1px;
   font-size: 21px;
   line-height: 25px;
   font-weight: 300;
