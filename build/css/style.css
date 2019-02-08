@@ -303,7 +303,7 @@ template {
   display: none;
 }
 body {
-  max-width: 1500px;
+  min-width: 1500px;
   margin: 0 auto;
   padding: 0;
   font-family: "Roboto", "Arial", sans-serif;
