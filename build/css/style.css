@@ -319,49 +319,49 @@ img {
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Thin.woff2") format("woff2"), url("../../fonts/Roboto-Thin.woff") format("woff");
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Light.woff2") format("woff2"), url("../../fonts/GinoraSans-Light.woff") format("woff");
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/GinoraSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Regular.woff2") format("woff2"), url("../../fonts/Roboto-Regular.woff") format("woff");
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Medium.woff2") format("woff2"), url("../../fonts/Roboto-Medium.woff") format("woff");
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Black.woff2") format("woff2"), url("../../fonts/Roboto-Bold.woff") format("woff");
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Black.woff2") format("woff2"), url("../../fonts/Roboto-Black.woff") format("woff");
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Ginora_sans";
-  src: url("../../fonts/GinoraSans-Light.woff2") format("woff2"), url("../../fonts/GinoraSans-Light.woff") format("woff");
+  src: url("../fonts/GinoraSans-Light.woff2") format("woff2"), url("../fonts/GinoraSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -409,7 +409,7 @@ input[type="radio"].visually-hidden {
   left: 185px;
   width: 343px;
   height: 283px;
-  background-image: url("../../img/promo-part-bg.png");
+  background-image: url("../img/promo-part-bg.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   z-index: 1;
@@ -449,11 +449,11 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 .promo__slider-btn--prev {
-  background-image: url("../../img/icon-right.png");
+  background-image: url("../img/icon-right.png");
   margin-left: -23px;
 }
 .promo__slider-btn--next {
-  background-image: url("../../img/icon-left.png");
+  background-image: url("../img/icon-left.png");
   margin-left: 41px;
 }
 .promo__cost {
@@ -501,7 +501,7 @@ input[type="radio"].visually-hidden {
   padding-left: 33px;
   width: 382px;
   position: relative;
-  background-image: url("../../img/navi-bg.jpg");
+  background-image: url("../img/navi-bg.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   -webkit-box-sizing: border-box;
@@ -524,7 +524,7 @@ input[type="radio"].visually-hidden {
   right: 26px;
   background-color: transparent;
   border: none;
-  background-image: url("../../img/icon-cross.png");
+  background-image: url("../img/icon-cross.png");
 }
 .navigation__btn:hover {
   cursor: pointer;
@@ -557,7 +557,7 @@ input[type="radio"].visually-hidden {
   height: 24px;
   top: 18px;
   left: 16px;
-  background-image: url("../../img/icon-house.png");
+  background-image: url("../img/icon-house.png");
 }
 .navigation__link--room {
   position: relative;
@@ -569,7 +569,7 @@ input[type="radio"].visually-hidden {
   height: 27px;
   top: 18px;
   left: 15px;
-  background-image: url("../../img/icon-diamond.png");
+  background-image: url("../img/icon-diamond.png");
 }
 .navigation__link--search {
   position: relative;
@@ -581,7 +581,7 @@ input[type="radio"].visually-hidden {
   height: 36px;
   top: 18px;
   left: 19px;
-  background-image: url("../../img/icon-search.png");
+  background-image: url("../img/icon-search.png");
 }
 .navigation__section-list {
   margin: 0;
@@ -622,7 +622,7 @@ input[type="radio"].visually-hidden {
   left: 39px;
   width: 34px;
   height: 20px;
-  background-image: url("../../img/icon-bowls.png");
+  background-image: url("../img/icon-bowls.png");
 }
 .navigation__sectioin-link--cups {
   margin-top: 50px;
@@ -635,7 +635,7 @@ input[type="radio"].visually-hidden {
   left: 9px;
   width: 20px;
   height: 31px;
-  background-image: url("../../img/icon-cups.png");
+  background-image: url("../img/icon-cups.png");
 }
 .navigation__sectioin-link--dispensers {
   margin-left: 41px;
@@ -647,7 +647,7 @@ input[type="radio"].visually-hidden {
   left: 39px;
   width: 13px;
   height: 35px;
-  background-image: url("../../img/icon-dispensers.png");
+  background-image: url("../img/icon-dispensers.png");
 }
 .navigation__sectioin-link--furniture {
   margin-left: 49px;
@@ -659,7 +659,7 @@ input[type="radio"].visually-hidden {
   left: 22px;
   width: 41px;
   height: 26px;
-  background-image: url("../../img/icon-furniture.png");
+  background-image: url("../img/icon-furniture.png");
 }
 .navigation__sectioin-link--tableware {
   margin-left: 41px;
@@ -671,7 +671,7 @@ input[type="radio"].visually-hidden {
   left: 29px;
   width: 33px;
   height: 33px;
-  background-image: url("../../img/icon-tableware.png");
+  background-image: url("../img/icon-tableware.png");
 }
 .navigation__sectioin-link--cutlery {
   margin-left: 54px;
@@ -683,7 +683,7 @@ input[type="radio"].visually-hidden {
   left: 31px;
   width: 9px;
   height: 33px;
-  background-image: url("../../img/icon-cutlery.png");
+  background-image: url("../img/icon-cutlery.png");
 }
 .navigation__sectioin-link--plants {
   margin-left: 26px;
@@ -695,7 +695,7 @@ input[type="radio"].visually-hidden {
   left: 43px;
   width: 34px;
   height: 39px;
-  background-image: url("../../img/icon-plants.png");
+  background-image: url("../img/icon-plants.png");
 }
 .pots {
   background-color: #f5f5f5;
@@ -714,7 +714,7 @@ input[type="radio"].visually-hidden {
   padding-top: 232px;
   padding-left: 121px;
   border-bottom: 1px solid transparent;
-  background-image: url("../../img/pots-part-bg.png");
+  background-image: url("../img/pots-part-bg.png");
   background-repeat: no-repeat;
   background-position: 0 -6px;
   position: relative;
@@ -726,7 +726,7 @@ input[type="radio"].visually-hidden {
   left: 121px;
   width: 128px;
   height: 79px;
-  background-image: url("../../img/img-pots.png");
+  background-image: url("../img/img-pots.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -838,7 +838,7 @@ input[type="radio"].visually-hidden {
   left: 2px;
   width: 16px;
   height: 17px;
-  background-image: url("../../img/icon-heart.png");
+  background-image: url("../img/icon-heart.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -893,7 +893,7 @@ input[type="radio"].visually-hidden {
   left: 1070px;
   border: none;
   background-color: transparent;
-  background-image: url("../../img/right.png");
+  background-image: url("../img/right.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -902,7 +902,7 @@ input[type="radio"].visually-hidden {
 }
 .room {
   margin-top: -1px;
-  background-image: url("../../img/rooms-bg.jpg");
+  background-image: url("../img/rooms-bg.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid transparent;
@@ -933,7 +933,7 @@ input[type="radio"].visually-hidden {
   left: 65px;
   width: 32px;
   height: 26px;
-  background-image: url("../../img/img-diamond.png");
+  background-image: url("../img/img-diamond.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -972,7 +972,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-bottom: 1px solid transparent;
-  background-image: url("../../img/shakers-part-bg.png");
+  background-image: url("../img/shakers-part-bg.png");
   background-repeat: no-repeat;
   background-position: 0 -8px;
   position: relative;
@@ -984,7 +984,7 @@ input[type="radio"].visually-hidden {
   left: 162px;
   width: 48px;
   height: 110px;
-  background-image: url("../../img/img-shakers.png");
+  background-image: url("../img/img-shakers.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1051,7 +1051,7 @@ input[type="radio"].visually-hidden {
   left: 2px;
   width: 16px;
   height: 17px;
-  background-image: url("../../img/icon-red-heart.png");
+  background-image: url("../img/icon-red-heart.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1131,7 +1131,7 @@ input[type="radio"].visually-hidden {
   padding-top: 265px;
   padding-left: 125px;
   background-color: #ffffff;
-  background-image: url("../../img/authentics-part-bg.png");
+  background-image: url("../img/authentics-part-bg.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1142,7 +1142,7 @@ input[type="radio"].visually-hidden {
   left: 131px;
   width: 118px;
   height: 115px;
-  background-image: url("../../img/img-authentics.png");
+  background-image: url("../img/img-authentics.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1157,7 +1157,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-image: url("../../img/authentics-bg.jpg");
+  background-image: url("../img/authentics-bg.jpg");
   background-repeat: no-repeat;
   background-position: -28px 0;
 }
@@ -1240,7 +1240,7 @@ input[type="radio"].visually-hidden {
   left: 0;
   width: 16px;
   height: 17px;
-  background-image: url("../../img/icon-red-heart.png");
+  background-image: url("../img/icon-red-heart.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1272,7 +1272,7 @@ input[type="radio"].visually-hidden {
 .main-footer {
   padding-top: 164px;
   padding-left: 47px;
-  background-image: url("../../img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   position: relative;
